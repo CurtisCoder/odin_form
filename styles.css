@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: myFont;
+	src: url(Norse-Bold.otf);
+}
+
+body {
+	background-color: black;
+}
+
+.container {
+	height: 100vh;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: arial;
+}
+
+
+.bigbox {
+	background-color: white;
+	width: 100vh;
+	height: 90%;
+	display: flex;
+}
+
+.container2 {
+	width: 40%;
+	background-image: linear-gradient(green, yellow, green);
+}
+
+.box1 {
+	padding-top: 75px;
+	display: flex;	
+	align-items: flex-end;
+}
+
+img {
+	height: 100%;	
+
+}
+
+.txt {
+	font-size: 3.5rem;
+	color: white;
+	font-weight: bold;
+	font-family: myFont;
+	padding-top: 10px;
+
+}
+
+.box_mini {
+	height: 40%;
+	width: 100%;
+	background-color: rgb(0,0,0,0.2);
+	display: flex;
+	justify-content: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+.container3 {
+	width: 60%;
+}
+
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+	height: 33%;
+}
+
+.box4, .box6 {
+	background-color: #8080800A;
+
+}
+
+
+.box4 {
+	padding-top: 30%;
+	padding-right: 10%;
+	font-weight: bold;
+}
+
+
+.box5 {
+	padding-top: 10px;
+}
+
+p {
+	position: relative;
+	left: 25px; 
+	
+}
+
+.box5txt {
+	font-weight: bold;
+}
+
+form {
+	position: relative;
+	left: 25px; 
+	display: flex;
+	flex-wrap: wrap;
+	font-size: .65rem;
+	font-weight: bold;
+}
+
+input {
+	display: block;
+	padding: 5px;
+	margin-right: 30px;
+	margin-bottom: 15px;
+}
+
+input:focus {
+	background-color: yellow;
+}
+
+.box6 {
+	padding-top: 20px;
+
+}
+
+.btn {
+	position: relative;
+	left: 25px; 
+	width: 175px;
+	height: 35px;
+	background-color: green;
+	color: white;
+	border-radius: 6%;
+	box-shadow: 2px 5px rgba(0,0,0,0.2);
+	margin-bottom: 20px;
+}
+
+.btn:active {
+	background-color: yellow;
+	color: black;
+}
+
+.lnk {
+	text-decoration: none;
+}
+
+.box6txt {
+	font-size: .85rem;
+}
